@@ -39,7 +39,7 @@ function Product() {
       <Navbar />
 
       <img className='banner-img' src={banner} alt="Banner" />
-      <h1 className='Slogun'>-----"Glow Naturally, Shine Confidently"-----</h1>
+      <h1 className='Slogun'>-----"Sweeten Your Celebrations"-----</h1>
       <div className='search-container'>
         <span className='reults-heading'>All Results...</span>
         <input
