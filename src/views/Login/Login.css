@@ -1,0 +1,126 @@
+
+.body{
+    background-attachment: fixed;
+}
+
+.heading{
+    font-size: 40px;
+    text-align: center;
+    color: #232323;
+    margin-top: 50px;
+    
+}
+
+.main-container{
+    background-color:#fddbc4;
+    height: 800px;
+    width: 580px;
+    margin: 40px auto;
+    display: block;
+    padding: 6px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.profile-img{
+    height: 200px;
+    margin-bottom: 30px;
+    background-color:#EAAA85;
+    border-radius: 50%;
+    margin: 10px auto;
+    display: block;
+    
+}
+
+.container{
+    background-color: #fce1cf;
+    margin-top: 20px;
+
+}
+
+.input-name{
+    font-size: 25px;
+    margin: 10px;
+    margin-top: 10px;
+}
+.input-box1{
+    width: 500px;
+    height: 40px;
+    padding: 5px;
+    margin: 6px;
+    font-size: 19px;
+}
+.submit-btn{
+    margin: 48px;
+    width: 450px;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: rgb(150, 223, 150);
+    color: black;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+
+}
+.last-container{
+    height: 0px;
+}
+.cancel-btn{
+    width: 100px;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: rgb(241, 60, 60);
+    margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.chk-box{
+    font-size: 20px;
+}
+.psw{
+
+    font-size: 19px;
+    margin-left: 280px;
+}
+@media screen and (max-width:400px) {
+    .heading{
+        font-size:30px ;
+    }
+    .main-container{
+        width: auto;
+        height: 650px;
+        margin: 10px 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
+    }
+    .input-name{
+        font-size: 15px;
+    }
+    .input-box{
+       width: 150px; 
+       height: 35px;
+
+    }
+    .submit-btn{
+        width: 100px;
+        margin: 40px;
+        margin-left: 50px;
+        
+    }
+    .chk-box{
+        font-size: 15px;
+    }
+    .cancel-btn{
+        width: 90px;
+        height: 30px;
+    
+    }
+    .psw{
+        font-size: 10gigipx;
+        margin: 0px 30px;
+        text-align: end;
+        
+    }
+    
+}

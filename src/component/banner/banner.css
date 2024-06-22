@@ -1,0 +1,44 @@
+.banner-container{
+    position: relative;
+}
+.background-img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 100%;
+}
+.title1{
+    margin-top: 10px;
+    margin-left: 120px;
+}
+.title2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 120px;
+
+}
+.logos{
+    height: 100px;
+    margin-top: 28%;
+    margin-left: 18%;
+    text-align: center;
+}
+.description-container{
+    position: absolute;
+    width: 800px;
+    text-align: center;
+    top:0;
+    left: 250px;
+    color: white;
+}
+.btn-discover{
+    background-color: transparent;
+    padding: 5px 10px;
+    border: 1px solid #ddd ;
+    margin: 20px;
+    font-size: 18px;
+    transition: .7s;
+}
+.btn-discover:hover{
+    background-color: rgb(245, 212, 168);
+}

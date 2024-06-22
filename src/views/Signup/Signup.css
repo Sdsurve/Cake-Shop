@@ -1,0 +1,81 @@
+.sign-in-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 50px;
+    
+
+   
+    
+}
+.sign-in-container:hover{
+   box-shadow: 0 0 gray;
+   
+    
+}
+
+.sign-in-tiger-img{
+    /* height: 450px; */
+    width: 480px;
+    border-radius: 30px;
+    box-shadow: 0 0 15px 2px gray ;
+   
+}
+
+
+.sign-in-form-container{
+    /* height: 450px; */
+    width: 450px;
+    background-color:#fddbc4;
+    border-radius: 20px;
+    margin-left:-270px;
+
+
+}
+
+.sign-in-logo-img-container{
+    align-items: center;
+    /* background-color: aliceblue; */
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+
+}
+
+.sign-in-text{
+    text-align: center;
+}
+
+.sign-logo-img{
+    height: 22px;
+   
+}
+
+.sign-form-container{
+    background-color: white;
+    width: 320px;
+    display: block;
+    margin: 15px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+.input-box{
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin:20px auto;
+}
+
+.sign-in-page-btn{
+    margin-left: 180px;
+   align-items: center;
+   background-color: rgb(112, 227, 112);
+   padding: 7px 25px;
+   border-radius: 10px;
+   border: 2px solid rgb(15, 72, 15);
+
+}

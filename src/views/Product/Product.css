@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.banner-img{
+    margin: 70px 0;
+    padding: 0;
+    width: 100%;
+    height: 500px;
+}
+.main-div{
+    margin: 2% auto;
+    display: flex;
+    
+
+}
+.Sub-title{
+     font-family: "Playwrite FR Moderne", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 23px;
+
+}
+.Slogun{
+    font-family: "Playwrite FR Moderne", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 35px;
+    color:  rgb(209, 180, 142);
+    text-align: center;
+    margin: 10% auto;
+}
+.search-container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    position: relative;
+}
+.input-feild{
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    background-color: transparent;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    padding: 10px 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #ddd;
+
+}
+.input-feild:hover{
+    border: 2px solid #aaa;
+}
+.reults-heading{
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    padding: 0px 20px;
+}
+.banner2{
+    height: 30%;
+    margin-bottom: 30px;
+}
+.banner33{
+    height: 10%;
+    margin-bottom: 30px;
+}
+.pcardsContainers{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+    /* justify-content: center;
+    align-items: center; */
+    width: 70%;
+    /* background-color: #f7f7f7;
+    border: 1px solid #ddd; */
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+ul{
+    font-size: 20px;
+    padding: 0;
+   margin-top: 10px;
+   margin-bottom: 100px;
+    /* grid-row: 10px; */
+}
+.list-2{
+    margin-left: 30%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    transition: .3s;
+
+}
+.list-2:hover{
+    color: rgb(244, 200, 143);
+    text-decoration:underline;
+    margin-left: 32%;
+}
+
+.tag-btn{
+    background-color: transparent;
+    padding: 5px 10px;
+    width: 40%;
+    /* height: 1%; */
+    border: 1px solid #aaa ;
+    margin: 10px;
+    font-size: 18px;
+    transition: .7s;
+}
+.tag-btn:hover{
+    background-color: rgb(245, 212, 168);
+}
+.categories-div{
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
+}
+@media screen and (max-width:1250px){
+    .banner2{
+        height: 8%;
+    }
+    .banner33{
+        height: 8%;
+    }
+}
+@media screen and (max-width:1000px) {
+    .main-div{
+        display: block;
+    }
+    .banner2{
+        display: none;
+    }
+    .banner33{
+        height: 5%;
+        width: 20%;
+        margin: 20px;
+    }
+    /* .Clist{
+        display: flex;
+        flex-wrap: wrap;
+    } */
+    .categories-div{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    .tag-div{
+        margin: 30px;
+    }
+    .tag-btn{
+        font-size: 10px;
+    }
+    .pcardsContainers{
+        width: 100%;
+        justify-content: space-around
+    }
+}
+@media screen and (max-width:560px) {
+    .search-container{
+        display: block;
+    }
+    .input-feild{
+        padding: 5px 20px;
+    font-size: 12px;
+    right: 4%;
+
+    }
+    .reults-heading{
+        font-size: 20px;
+        padding: 0px 0px;
+        position: absolute;
+        bottom: 0;
+    }
+}
+@media screen and (max-width:930px) {
+    .Slogun{
+        font-size: 25px;
+      
+    }
+    
+}
+@media screen and (max-width:660px) {
+    .Slogun{
+        font-size: 18px;
+        
+    }
+    
+}
+@media screen and (max-width:470px) {
+    .Slogun{
+        font-size: 15px;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .pcardsContainers{
+        height: 1000px;
+        overflow-y: scroll;
+    }
+    
+}

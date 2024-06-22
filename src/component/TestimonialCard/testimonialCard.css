@@ -1,0 +1,90 @@
+.headingFont{
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.subHeadingFont{
+    font-family: "Playwrite FR Moderne", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 23px;
+}
+/* .test-img{
+    position: absolute;
+    right: 10px;
+} */
+.descriptionFont{
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+.image-container:hover {
+     box-shadow: inset 3px 3px 5px 1px #a3a3a3;
+  transition: 2s;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left:380px;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px;
+    border-radius: 5px; 
+    font-size: 20px;
+    
+}
+.text-container {
+    width: 700px; 
+    height: 470px; 
+    border: 1px solid #000; 
+    margin-left: 100%;
+    padding: 20px;
+    margin-top: -50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0; 
+    font-size: 20px; 
+    color: #333; 
+}
+@media screen and (max-width: 900px) {
+    .headingFont {
+        font-size: 1.5em; 
+    }
+
+    .subHeadingFont {
+        font-size: 18px; 
+    }
+
+    .descriptionFont {
+        font-size: 16px; 
+    }
+
+    .text-overlay {
+        left: 50%;
+        font-size: 18px; 
+        padding: 5px;
+        margin: -157px 0px; 
+    }
+
+    .text-container {
+        width: 90%; 
+        height: auto; 
+        font-size: 18px; 
+    }
+    .test-img {
+        visibility: hidden;
+    }
+}

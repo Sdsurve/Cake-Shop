@@ -1,0 +1,24 @@
+
+
+.headingFont{
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.subHeadingFont{
+    font-family: "Playwrite FR Moderne", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 23px;
+}
+  .pcardsContainers3{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.descriptionFont{
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
